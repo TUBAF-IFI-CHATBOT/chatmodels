@@ -17,7 +17,7 @@ EXPOSE 5005
 ## build image and rund the container
 # docker compose up
 
-## stop the comtainer
+## stop the container
 # docker compose down
 
 
@@ -29,7 +29,7 @@ EXPOSE 5005
 ## run the container
 # docker run -p 5005:5005 tubafbot:chatbotbrain
 
-## stop and remvove the container
+## stop and remove the container
 # docker rm $(docker stop $(docker ps -a -q --filter ancestor=tubafbot:chatbotbrain))
 
 ## remove the docker image from the repository
