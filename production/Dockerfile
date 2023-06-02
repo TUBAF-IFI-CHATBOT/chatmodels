@@ -6,6 +6,23 @@ COPY config.yml config.yml
 CMD ["run", "--endpoints", "endpoints.yml", "--cors", "*"]
 EXPOSE 5005
 
+
+############################################################
+# build and run the container
+# (with or without docker compose)
+############################################################
+
+############### using docker compse
+
+## build image and rund the container
+# docker compose up
+
+## stop the comtainer
+# docker compose down
+
+
+############### or NOT using docker compse
+
 ## build the docker image named 'tubafbot:chatbotbrain'
 # docker build -t tubafbot:chatbotbrain --rm . 
 

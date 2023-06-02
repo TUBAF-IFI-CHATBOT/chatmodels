@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  assistancebot:
+    build: .
+    ports:
+      - 5005:5005
