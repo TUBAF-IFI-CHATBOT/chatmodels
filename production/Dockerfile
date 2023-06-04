@@ -21,7 +21,7 @@ EXPOSE 5005
 # docker compose down
 
 
-############### or NOT using docker compse
+############### or NOT using docker compose
 
 ## build the docker image named 'tubafbot:chatbotbrain'
 # docker build -t tubafbot:chatbotbrain --rm . 
